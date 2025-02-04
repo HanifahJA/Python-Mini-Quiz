@@ -50,23 +50,6 @@ def run_quiz(questions):
         else:
              print(f"Incorrect☹️. The correct answer is {question.answer}.")
     print(f"You got {score}/{len(questions)} correct.")
- 
-          
-    #     if answer == question.answer:
-    #         score += 1
-    # print(f"You got {score}/{len(questions)} correct.")
-# def run_quiz(questions):
-#     score = 0
-#     for question in questions:
-#         answer = input(question.prompt)
-#         while True:
-#             if answer != "a" and answer != "b" and answer != "c" and answer != "d":
-#                 print(f"'{answer}' is not a valid answer.\nPlease enter 'a', 'b', 'c' or 'd'")
-#             # break
-            
-#         if answer == question.answer:
-#             score += 1
-#     print(f"You got {score}/{len(questions)} correct.")
 
 
 run_quiz(questions)
